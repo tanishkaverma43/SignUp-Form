@@ -14,9 +14,13 @@
 
       <form>
         <input type="text" placeholder="Full Name" required><br>
-        <input type="email" placeholder="Email" required><br>
+        <input type="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address."><br>
         <input type="password" placeholder="Password" required><br>
+        <span id="password-error" class="error-message">Password must be at least 8 characters long and include one uppercase letter, one number, and one special character.</span>
+        
         <input type="password" placeholder="Confirm Password" required><br>
+        <span id="confirm-password-error" class="error-message">Passwords do not match.</span>
+
         <input type="date" required><br>
         <label><input type="radio" name="status">Employee</label>
         <label><input type="radio" name="status">Student</label><br><br>
