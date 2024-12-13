@@ -41,11 +41,11 @@ You can view the project live at: **SignUp Form**
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone <https://github.com/tanishkaverma43/SignUp-Form>
+   git clone https://github.com/tanishkaverma43/SignUp-Form
    ```
 2. Open the project folder and view the HTML file in your browser:
    ```bash
-   cd <SignUp-Form>
+   cd SignUp-Form
    open index.html
    ```
 
